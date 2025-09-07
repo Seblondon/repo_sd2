@@ -33,3 +33,6 @@ read height
 echo ""
 pixelTotal=$(( $width * $height ))
 echo "Your display has ${pixelTotal} pixels." 
+
+difference=$((num1 - num2))
+echo "The difference is: $difference"
