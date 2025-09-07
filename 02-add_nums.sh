@@ -1,19 +1,19 @@
 #!/bin/sh
 
-echo "Enter your first number"
-read first
-echo "Enter your second number"
-read second
-echo "Enter your third number"
+echo "Enter first number: "
+read num1
+echo "Enter second number: "
+read num2
+echo "Enter your third number: "
 read third
 
 sum=$(( first+second+third ))
 
 echo "The sum is $sum"
 
-echo "Please enter the height"
+echo "Please enter the height: "
 read height
-echo "Please enter the width"
+echo "Please enter the width: "
 read width
 
 totalPixels=$(( height*width ))
@@ -33,3 +33,7 @@ read height
 echo ""
 pixelTotal=$(( $width * $height ))
 echo "Your display has ${pixelTotal} pixels." 
+
+# Exercise
+product=$(( num1 * num2 * third ))
+echo "The product of your numbers is $product"
